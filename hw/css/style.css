@@ -15,9 +15,10 @@ body {
     background: linear-gradient(rgb(246,250,253), rgb(255,255,255));
 }
 main {
-    width: 80vw;
+    width: 1250px;
     margin-top: 50px;
     margin-left: 15vw;
+    margin-right: auto;
     height: 755px;
     font-family: 'Avenir', sans-serif;
     color: #4B5D68;
@@ -68,6 +69,7 @@ button:hover {
 a {
     color: #4B5D68;
     text-decoration: none;
+    outline: none;
 }
 a:visited {
     color: #4B5D68;
@@ -92,7 +94,12 @@ h1 {
     color:  #212353;
 }
 p {
+    font-family: 'Avenir', sans-serif;
+    color: #4B5D68;
     font-size: 18px;
+    line-height: 1.6;
+}
+.main-text {
     width: 370px;
     margin-top: 50px;
 }
@@ -111,4 +118,33 @@ p {
     background: #9C69E2;
     border-radius: 50px;
     outline: none;
+}
+.info {
+    width: 1117px;
+    height: 560px;
+    margin-top: 100px;
+    margin-left: 15vw;
+    margin-right: auto;
+    border-radius: 50px;
+    background-image: url(../img/storage.png);
+    background-repeat: no-repeat;
+    background-position: 10px 30px;
+    background-color: rgba(240,99,184, 0.15);
+    
+}
+.storage {
+    position: absolute;
+    width: 465px;
+    height: 310px;
+    margin-left: 550px;
+    margin-top: 125px;
+}
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    color:  #212353;
+    font-size: 40px;
+    margin: 0px;
+}
+.info-text {
+    margin-top: 40px;
 }
