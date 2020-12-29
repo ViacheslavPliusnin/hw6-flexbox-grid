@@ -40,7 +40,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-width: 320px;
+    min-width: 20vw;
 }
 .request-button {
     margin-left: 26.25vw;
@@ -121,11 +121,11 @@ p {
     outline: none;
 }
 .info {
-    width: 1120px;
+    width: 70vw;
     height: 560px;
     margin-top: 100px;
     margin-left: 15vw;
-    margin-right: auto;
+    margin-right: 15vw;
     border-radius: 50px;
     background-image: url(../img/storage.png);
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ p {
     position: absolute;
     width: 465px;
     height: 310px;
-    margin-left: 550px;
+    margin-left: 35vw;
     margin-top: 125px;
 }
 h2 {
