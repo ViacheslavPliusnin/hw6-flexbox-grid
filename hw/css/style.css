@@ -330,6 +330,7 @@ footer {
 .link-head {
     color: inherit;
     font-weight: 700;
+    margin-top: 12px;
 }
 .contacts {
     padding-top: 40px;
