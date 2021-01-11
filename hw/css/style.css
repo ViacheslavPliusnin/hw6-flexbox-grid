@@ -62,7 +62,7 @@ nav {
     box-shadow: 0px 5px 10px 0px rgb(220, 220, 220);
     outline: none;
 }
-button:hover {
+.image-link:hover, button:hover, .social-links:hover {
     cursor: pointer;
     transform: scale(1.1);
     transition: ease-in-out 0.2s;
@@ -71,19 +71,12 @@ a {
     text-decoration: none;
     outline: none;
 }
-.nav-links {
+.nav-links, .nav-links:visited {
     color: #4B5D68;
 }
-.nav-links:visited {
-    color: #4B5D68;
-}
-.nav-links:hover {
+.nav-links:hover, footer a:hover {
     font-weight: 700;
     color: #212353;
-}
-.image-link:hover {
-    transform: scale(1.1);
-    transition: ease-in-out 0.2s;
 }
 .main-info {
     width: 645px;
@@ -251,13 +244,13 @@ h3 {
     margin-top: 20px;
     margin-bottom: 0;
 }
-.presentation a {
+.presentation a, .presentation a:visited {
     font-family: 'Avenir', sans-serif;
     font-size: 14px;
     color:  #9C69E2;
 }
-.presentation a:visited {
-    color:  #9C69E2;
+.presentation a:hover {
+    font-weight: 700;
 }
 h4 {
     font-family: 'Avenir', sans-serif;
@@ -358,12 +351,7 @@ footer {
     width: 75px;
     line-height: 2.5;
 }
-a:hover {
-    cursor: pointer;
-    font-weight: 700;
-    color: #212353;
-}
-a:visited {
+footer a, a:visited {
     color: #212353;
 }
 .social {
@@ -375,9 +363,6 @@ a:visited {
 .social-links {
     height: 50px;
     border-radius: 25px;
-}
-.social-links:hover {
-    transform: scale(1.1);
 }
 .facebook:hover {
     background-color: #3b5998;
